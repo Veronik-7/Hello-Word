@@ -6,3 +6,4 @@ git commit
 git commit -m 'Mensaje para subir'
 git push 
 git email - 
+git name - 
