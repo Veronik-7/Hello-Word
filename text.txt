@@ -5,5 +5,34 @@ git add .
 git commit
 git commit -m 'Mensaje para subir'
 git push 
-git email - 
-git name -
+git email - ver_statik@hotmail.com
+git name - Veronik-7
+Error: ! [rejected] master -> master (fetch first) error: failed to push some refs to '
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
+
+Error 2:! [rejected] master -> master (fetch first) error: failed to push some refs to 'https://github.com/Armandres30/Xpath.git'
+#Just follow next steps in console terminal ;)
+git init	#Initialize git in folder
+git add .	#add all files of folder to be pushed
+git commit -m "First commit"	#add first commit
+git remote add origin remote_repository_URL #replace with your remote repo url
+git remote -v	#verify that your remote repository url is properly found
+git push --force origin master	#force pushing your project into github repo
+
+Error3: ! [rejected] master -> master (fetch first) error: failed to push some refs to '
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+Origen: 
+https://www.codegrepper.com/code-examples/shell/%21+%5Brejected%5D+main+-%3E+main+%28fetch+first%29+error%3A+failed+to+push+some+refs+to+%27github.com%3ARXRider1451%2FSD_Project_Website.git%27
+
+
+
+
+
