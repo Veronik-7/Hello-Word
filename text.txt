@@ -2,11 +2,10 @@ Importante cambio sobre código. debe ser documentado
 Hay instrucciones claras sobre como ejecutar Git 
 git status 
 git add .
-git commit
 git commit -m 'Mensaje para subir'
+git pull
 git push 
-<<<<<<< HEAD
-git email - ver_statik@hotmail.com
+git send email - ver_statik@hotmail.com
 git name - Veronik-7
 Error: ! [rejected] master -> master (fetch first) error: failed to push some refs to '
 git init
@@ -14,6 +13,7 @@ git add README.md
 git add .
 git commit -m "first commit"
 git remote add origin https://github.com/userName/repoName.git
+git pull
 git push --force origin master
 
 Error 2:! [rejected] master -> master (fetch first) error: failed to push some refs to 'https://github.com/Armandres30/Xpath.git'
@@ -34,11 +34,9 @@ Origen:
 https://www.codegrepper.com/code-examples/shell/%21+%5Brejected%5D+main+-%3E+main+%28fetch+first%29+error%3A+failed+to+push+some+refs+to+%27github.com%3ARXRider1451%2FSD_Project_Website.git%27
 
 
+git config pull.rebase false  # hacer merge (estrategia por defecto)
+git config pull.rebase true   # aplicar rebase
+git config pull.ff only       # aplicar solo fast-forward
 
 
 
-=======
-git email - 
-git name - 
-Veronica A :)
->>>>>>> c89c4350d7b31aa237fad4941ce81f238e23991d
