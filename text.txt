@@ -1,1 +1,8 @@
 Importante cambio sobre código. debe ser documentado
+Hay instrucciones claras sobre como ejecutar Git 
+git status 
+git add .
+git commit
+git commit -m 'Mensaje para subir'
+git push 
+git email - 
