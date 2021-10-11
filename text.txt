@@ -5,6 +5,7 @@ git add .
 git commit -m 'Mensaje para subir'
 git pull
 git push 
+git push origin master --> subir a repositorio remoto
 git send email - ver_statik@hotmail.com
 git name - Veronik-7
 Error: ! [rejected] master -> master (fetch first) error: failed to push some refs to '
